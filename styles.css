@@ -1,0 +1,392 @@
+/* Estilos generales */
+body {
+    font-family: 'Press Start 2P', cursive; /* Usando la fuente de videojuegos */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+/* Encabezado */
+header h1 {
+    font-family: 'Press Start 2P', cursive; /* Fuente de videojuegos en el encabezado */
+    font-size: 3rem;
+    color: #ff00ff;
+    text-shadow: 
+        0 0 10px #ff00ff,
+        0 0 20px #ff00ff,
+        0 0 30px #ff00ff;
+}
+main p{
+    font-family: 'Press Start 2P', cursive; /* Fuente de videojuegos en el encabezado */
+    margin-bottom: 20px;
+    color: #00ff88;
+    text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+
+}
+/* Otros lugares donde se utiliza la fuente */
+.join a.join-link {
+    font-family: 'Press Start 2P', cursive; /* Fuente en el enlace de unirse */
+}
+
+.card h3 {
+    font-family: 'Press Start 2P', cursive; /* Fuente en los títulos de los juegos */
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+/* Animación del fondo */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ff00ff;
+    text-shadow: 
+        0 0 10px #ff00ff,
+        0 0 20px #ff00ff,
+        0 0 30px #ff00ff;
+}
+
+header img.banner {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 10px;
+    border: 4px solid #00f9ff;
+}
+
+/* Secciones principales */
+main {
+    padding: 20px;
+}
+
+.intro {
+    margin-bottom: 20px;
+    color: #00ff88;
+    text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+}
+
+.intro img.console {
+    width: 300px;
+    margin-top: 15px;
+    border: 3px solid #ff00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+/* Sección de unirse */
+.join {
+    margin: 20px 0;
+}
+
+.join img.qr-code {
+    width: 200px;
+    margin: 10px 0;
+    border: 3px solid #f7ff3c;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #f7ff3c;
+}
+
+.PS3 {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ff88;
+    overflow: hidden;
+    width: 280px;
+    position: relative;
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.0); /* Tamaño inicial */
+}
+
+.PS3:hover {
+    transform: scale(1.1); /* Agranda el elemento */
+    box-shadow: 0 0 25px #ff00ff;
+}
+
+
+
+.join a.join-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ff0055;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #ff0055;
+    transition: all 0.3s ease;
+}
+
+.join a.join-link:hover {
+    background-color: #ff66cc;
+    box-shadow: 0 0 25px #ff66cc;
+}
+
+/* Lista de características */
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background: linear-gradient(90deg, #ff00ff, #00f9ff);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+.features img.games {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+    border: 3px solid #00f9ff;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #00f9ff;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #f7ff3c;
+    text-shadow: 0 0 10px #f7ff3c;
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+/* Estilo para la sección de juegos */
+.games {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.games h2 {
+    font-size: 2rem;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Diseño de los cards */
+.card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ff88;
+    overflow: hidden;
+    width: 280px;
+    text-align: left;
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ff00ff;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #00ff88;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 15px 10px 5px;
+    color: #f7ff3c;
+    text-shadow: 0 0 10px #f7ff3c;
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 0 10px 15px;
+    line-height: 1.4;
+}
+
+/* Estilo para los cards */
+.card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ff88;
+    overflow: hidden;
+    width: 280px;
+    position: relative;
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ff00ff;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #00ff88;
+}
+
+/* Contenedor de la información del juego */
+.card h3,
+.card p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    text-align: center;
+}
+
+/* Estilo para el título */
+.card h3 {
+    font-size: 1.5rem;
+    color: #f7ff3c;
+    text-shadow: 0 0 10px #f7ff3c;
+    margin-bottom: 5px;
+}
+
+/* Mostrar información al hacer hover */
+.card:hover h3,
+.card:hover p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Media Query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Estilos generales */
+    body {
+        font-size: 14px;
+        background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+        background-size: 400% 400%;
+        animation: gradientAnimation 10s ease infinite;
+    }
+
+    /* Encabezado */
+    header h1 {
+        font-size: 2rem;
+        text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+    }
+
+    header img.banner {
+        max-height: 200px;
+    }
+
+    /* Sección de introducción */
+    .intro {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .intro img.console {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    /* Sección de unirse */
+    .join {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+
+    .join img.qr-code {
+        width: 150px;
+    }
+
+    /* Juegos destacados */
+    .games {
+        margin-top: 20px;
+    }
+
+    .games h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    /* Pie de página */
+    footer {
+        font-size: 0.8rem;
+    }
+
+    /* Enlace para unirse al grupo */
+    .join a.join-link {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    /* Ajustes adicionales para la imagen de PS3 */
+    .PS3 {
+        width: 100%;
+        max-width: 250px;
+    }
+}
